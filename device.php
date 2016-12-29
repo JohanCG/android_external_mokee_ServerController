@@ -800,6 +800,12 @@ $hardware_info = array(
                      'battery' => '2900 mAh',
                      'display' => '5.0 inch, 1920x1080 pixel(441ppi)',
                      'cpuarch' => 'Arm'),
+    'falcon' => array('cpu' => 'Qualcomm® Snapdragon™ 400',
+                     'ram' => '1GB',
+                     'rom' => '8GB/16GB',
+                     'battery' => '2070 mAh',
+                     'display' => '4.5 inch, 720 x 1280 pixels',
+                     'cpuarch' => 'Arm'),
 );
 
 foreach ($devices_info as $k => $val) {
